@@ -11,3 +11,8 @@ We describe the systems developed for the WNUT-2020 shared task 2, identificatio
 
 ## Usage
 
+The `preprocess.py` file consists of methods used to preprocess, clean, and generate feature from the input Tweets.
+
+The `analyze.py` file utilizes traditional ML models to classify the tweets found in the `.tsv` files.
+
+The `Dartmouth_CS_at_WNUT_2020_Task_2_Fine_tuning_BERT_for_Tweet_classification.ipynb` notebook utilzes Google's BERT to make a fine tuned model for prediction of tweets.
