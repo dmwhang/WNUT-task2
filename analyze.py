@@ -43,8 +43,8 @@ def f1_score(predictions, labels):
   return f1
 
 def read_data():
-  train_file = open("/Users/dylan/Desktop/ML Twitter Covid19/COVID19Tweet/train.tsv")
-  valid_file = open("/Users/dylan/Desktop/ML Twitter Covid19/COVID19Tweet/valid.tsv")
+  train_file = open("./train.tsv")
+  valid_file = open("./valid.tsv")
   for raw_line in train_file:
     line = raw_line.split("\t")
     corpora.append(line[1])
